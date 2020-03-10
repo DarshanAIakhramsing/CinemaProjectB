@@ -46,11 +46,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Avengers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Avengers.Designer.cs">
+      <DependentUpon>Avengers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frozen2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frozen2.Designer.cs">
+      <DependentUpon>Frozen2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Godzilla.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Godzilla.Designer.cs">
       <DependentUpon>Godzilla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JohnWick2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JohnWick2.Designer.cs">
+      <DependentUpon>JohnWick2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JohnWick3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JohnWick3.Designer.cs">
+      <DependentUpon>JohnWick3.cs</DependentUpon>
     </Compile>
     <Compile Include="MadeInAbyss.cs">
       <SubType>Form</SubType>
@@ -66,8 +90,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Avengers.resx">
+      <DependentUpon>Avengers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frozen2.resx">
+      <DependentUpon>Frozen2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Godzilla.resx">
       <DependentUpon>Godzilla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JohnWick2.resx">
+      <DependentUpon>JohnWick2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JohnWick3.resx">
+      <DependentUpon>JohnWick3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MadeInAbyss.resx">
       <DependentUpon>MadeInAbyss.cs</DependentUpon>
@@ -103,6 +139,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\MadeInAbyss.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Avengersendgame.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frozen2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\John Wick 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\John Wick 3.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
